@@ -1,0 +1,222 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <title>11</title>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/script.js"></script>
+	<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+	<link href="css/animate.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div id="stage">
+		<img class="animated fadeIn" src="media/tela_11.png" alt=""  usemap="#Map"/>
+			<a href="index_09.html" alt="IIAc">			
+				<div style="top: 3%; left: 18%; position: absolute; width: 16%; height: 7%; " class="buttom "></div>
+			</a>		
+			<a href="index_10.html" alt="ITUc">			
+				<div style="top: 3%; left: 35%; position: absolute; width: 14%; height: 7%; " class="buttom "></div>
+			</a>
+			<a href="index_11.html" alt="PAV/PAH">			
+				<div style="top: 3%; left: 50%; position: absolute; width: 14%; height: 7%; " class="buttom "></div>
+			</a>
+			<a href="index_12.html" alt="Infecções de corrente sanguínea">			
+				<div style="top: 3%; left: 65%; position: absolute; width: 14%; height: 7%; " class="buttom "></div>
+			</a>
+		
+			<!--paginação-->
+			<a href="index_10.html" alt="Anterior">			
+				<div class="buttom anterior"></div>
+			</a>
+			<a href="index_12.html" alt="Anterior">			
+				<div class="buttom proximo"></div>
+			</a>		
+			<!--paginação-->
+		
+			<a href="javascript:switchPopUp21()"	 	alt="VA Pseudomonas">			
+				<div style="bottom: 0%; left: 29%; position: absolute; width: 15%; height: 30%" class="buttom "></div>
+			</a>
+			<a href="javascript:switchPopUp4()" alt="Lâmina Concorrente">			
+				<div style="bottom: 0%; left: 45%; position: absolute; width: 15%; height: 30%" class="buttom "></div>
+			</a>
+			<a href="javascript:switchPopUp9()" alt="Projeto: Liderando o diagnóstico">			
+				<div style="bottom: 0%; left: 61%; position: absolute; width: 18%; height: 30%" class="buttom "></div>
+			</a>
+		
+		
+		<map name="Map">
+			<area shape="rect" coords="258,22,447,66" 		href="index_09.html" alt="IIAc">
+			<area shape="rect" coords="447,22,636,66" 		href="index_10.html" alt="ITUc">
+			<area shape="rect" coords="636,22,824,66" 		href="index_11.html" alt="PAV/PAH">
+			<area shape="rect" coords="824,22,1011,66" 		href="index_12.html" alt="Infecções de corrente sanguínea">
+			<area shape="rect" coords="799,538,1020,705" 	href="javascript:switchPopUp5()" alt="Projeto: Liderando o diagnóstico">
+			<area shape="rect" coords="371,541,584,708" 	href="javascript:switchPopUp2()"	 	alt="VA Pseudomonas">	
+			<area shape="rect" coords="588,541,771,708" 	href="javascript:switchPopUp4()" alt="Lâmina Concorrente"><area shape="rect" coords="0,100,150,620" 		href="index_10.html" alt="Anterior">
+			<area shape="rect" coords="1130,100,1280,620" 	href="index_12.html" alt="Próximo"></map> 
+		
+		<!--Lâmina Concorrente-->
+			<div id="popUp4">
+				<img src="media/tela_33.png"  usemap="#Graph_04" class="animated fadeIn"/>
+				<map name="Graph_04">
+					<area shape="rect" coords="0,0,2560,1440" href="javascript:switchPopUp4()" alt="FECHAR">
+				</map>
+			 </div>	
+		<!--Lâmina Concorrente-->
+		
+	<!--VA Pseudomonas-->
+			<div id="popUp21">
+				<img src="media/tela_39.png"  usemap="#Graph_21" class="animated fadeIn"/>
+				<map name="Graph_21">
+<!--					<area shape="rect" coords="0,0,640,720" href="javascript:switchPopUp2()" alt="Fechar">-->
+<!--
+					<area shape="rect" coords="0,0,640,720" href="javascript:switchPopUp21()" alt="Voltar">
+					<area shape="rect" coords="640,0,2560,720" href="javascript:switchPopUp2()" alt="Avançar">
+-->
+				</map>
+			<a href="javascript:switchPopUp2()" alt="IDetail">			
+				<div style="bottom: 0%; left: 23%; position: absolute; width: 19%; height: 10%" class="buttom "></div>
+			</a>					
+			<a href="javascript:switchPopUp21()" alt="Fechar">			
+				<div style="bottom: 90%; left: 90%; position: absolute; width: 10%; height: 10%" class="buttom "></div>
+			</a>				
+	  </div>			
+			<div id="popUp2">
+				<img src="media/tela_40.png"  usemap="#Graph_02" class="animated fadeIn"/>
+				<map name="Graph_02">
+<!--					<area shape="rect" coords="0,0,640,720" href="javascript:switchPopUp2()" alt="Fechar">-->
+					<area shape="rect" coords="0,0,640,720" href="javascript:switchPopUp2()" alt="Voltar">
+					<area shape="rect" coords="640,0,2560,720" href="javascript:switchPopUp11()" alt="Avançar">
+				</map>
+			<a href="javascript:switchPopUp2()" alt="Fechar">			
+				<div style="bottom: 90%; left: 90%; position: absolute; width: 10%; height: 10%" class="buttom "></div>
+			</a>				
+	  </div>	
+			<div id="popUp11">
+				<img src="media/tela_41.png"  usemap="#Graph_11" class="animated fadeIn"/>
+				<map name="Graph_11">
+					<!--					<area shape="rect" coords="0,0,640,720" href="javascript:switchPopUp2()" alt="Fechar">-->
+					<area shape="rect" coords="0,0,640,720" href="javascript:switchPopUp2()" alt="Voltar">
+					<area shape="rect" coords="640,0,2560,720" href="javascript:switchPopUp12()" alt="Avançar">
+				</map>
+			<a href="javascript:switchPopUp11()" alt="Fechar">			
+				<div style="bottom: 90%; left: 90%; position: absolute; width: 10%; height: 10%" class="buttom "></div>
+			</a>				
+				
+			</div>
+			<div id="popUp12">
+				<img src="media/tela_42.png"  usemap="#Graph_12" class="animated fadeIn"/>
+				<map name="Graph_12">
+					<!--					<area shape="rect" coords="0,0,640,720" href="javascript:switchPopUp2()" alt="Fechar">-->
+					<area shape="rect" coords="0,0,640,720" href="javascript:switchPopUp11()" alt="Voltar">
+					<area shape="rect" coords="640,0,2560,720" href="javascript:switchPopUp13()" alt="Avançar">
+				</map>
+			<a href="javascript:switchPopUp12()" alt="Fechar">			
+				<div style="bottom: 90%; left: 90%; position: absolute; width: 10%; height: 10%" class="buttom "></div>
+			</a>				
+			</div>	
+			<div id="popUp13">
+				<img src="media/tela_43.png"  usemap="#Graph_13" class="animated fadeIn"/>
+				<map name="Graph_13">
+					<!--					<area shape="rect" coords="0,0,640,720" href="javascript:switchPopUp2()" alt="Fechar">-->
+					<area shape="rect" coords="0,0,640,720" href="javascript:switchPopUp12()" alt="Voltar">
+					<area shape="rect" coords="640,0,2560,720" href="javascript:switchPopUp14()" alt="Avançar">
+				</map>
+			<a href="javascript:switchPopUp13()" alt="Fechar">			
+				<div style="bottom: 90%; left: 90%; position: absolute; width: 10%; height: 10%" class="buttom "></div>
+			</a>				
+			</div>	
+			<div id="popUp14">
+				<img src="media/tela_44.png"  usemap="#Graph_14" class="animated fadeIn"/>
+				<map name="Graph_14">
+					<!--					<area shape="rect" coords="0,0,640,720" href="javascript:switchPopUp2()" alt="Fechar">-->
+					<area shape="rect" coords="0,0,640,720" href="javascript:switchPopUp13()" alt="Voltar">
+					<area shape="rect" coords="640,0,2560,720" href="javascript:switchPopUp15()" alt="Avançar">
+				</map>
+			<a href="javascript:switchPopUp14()" alt="Fechar">			
+				<div style="bottom: 90%; left: 90%; position: absolute; width: 10%; height: 10%" class="buttom "></div>
+			</a>				
+			</div>	
+			<div id="popUp15">
+				<img src="media/tela_45.png"  usemap="#Graph_15" class="animated fadeIn"/>
+				<map name="Graph_15">
+					<!--					<area shape="rect" coords="0,0,640,720" href="javascript:switchPopUp2()" alt="Fechar">-->
+					<area shape="rect" coords="0,0,640,720" href="javascript:switchPopUp14()" alt="Voltar">
+					<area shape="rect" coords="640,0,2560,720" href="javascript:switchPopUp16()" alt="Avançar">
+				</map>
+			<a href="javascript:switchPopUp15()" alt="Fechar">			
+				<div style="bottom: 90%; left: 90%; position: absolute; width: 10%; height: 10%" class="buttom "></div>
+			</a>				
+			</div>	
+			<div id="popUp16">
+				<img src="media/tela_46.png"  usemap="#Graph_16" class="animated fadeIn"/>
+				<map name="Graph_16">
+					<!--					<area shape="rect" coords="0,0,640,720" href="javascript:switchPopUp2()" alt="Fechar">-->
+					<area shape="rect" coords="0,0,640,720" href="javascript:switchPopUp15()" alt="Voltar">
+					<area shape="rect" coords="640,0,2560,720" href="javascript:switchPopUp17()" alt="Avançar">
+				</map>
+			<a href="javascript:switchPopUp16()" alt="Fechar">			
+				<div style="bottom: 90%; left: 90%; position: absolute; width: 10%; height: 10%" class="buttom "></div>
+			</a>				
+			</div>			
+			<div id="popUp17">
+				<img src="media/tela_47.png"  usemap="#Graph_17" class="animated fadeIn"/>
+				<map name="Graph_17">
+					<!--					<area shape="rect" coords="0,0,640,720" href="javascript:switchPopUp2()" alt="Fechar">-->
+					<area shape="rect" coords="0,0,640,720" href="javascript:switchPopUp16()" alt="Voltar">
+					<area shape="rect" coords="640,0,2560,720" href="javascript:switchPopUp18()" alt="Avançar">
+				</map>
+			<a href="javascript:switchPopUp17()" alt="Fechar">			
+				<div style="bottom: 90%; left: 90%; position: absolute; width: 10%; height: 10%" class="buttom "></div>
+			</a>				
+			</div>
+			<div id="popUp18">
+				<img src="media/tela_48.png"  usemap="#Graph_18" class="animated fadeIn"/>
+				<map name="Graph_18">
+					<!--					<area shape="rect" coords="0,0,640,720" href="javascript:switchPopUp2()" alt="Fechar">-->
+					<area shape="rect" coords="0,0,640,720" href="javascript:switchPopUp17()" alt="Voltar">
+					<area shape="rect" coords="640,0,2560,720" href="javascript:switchPopUp19()" alt="Avançar">
+				</map>
+			<a href="javascript:switchPopUp18()" alt="Fechar">			
+				<div style="bottom: 90%; left: 90%; position: absolute; width: 10%; height: 10%" class="buttom "></div>
+			</a>				
+			</div>
+			<div id="popUp19">
+				<img src="media/tela_49.png"  usemap="#Graph_19" class="animated fadeIn"/>
+				<map name="Graph_19">
+					<!--					<area shape="rect" coords="0,0,640,720" href="javascript:switchPopUp2()" alt="Fechar">-->
+					<area shape="rect" coords="0,0,640,720" href="javascript:switchPopUp18()" alt="Voltar">
+					<area shape="rect" coords="640,0,2560,720" href="javascript:switchPopUp19()" alt="Avançar">
+				</map>
+			<a href="javascript:switchPopUp19()" alt="Fechar">			
+				<div style="bottom: 90%; left: 90%; position: absolute; width: 10%; height: 10%" class="buttom "></div>
+			</a>				
+			</div>			
+		
+		<!--VA Pseudomonas-->	
+		
+		<!--VA Pseudomonas-->
+		<!--Liderando o Diagnóstico-->
+			<div id="popUp9">
+				<img src="media/tela_37.png"  usemap="#Graph_09" class="animated fadeIn"/>
+				<map name="Graph_09">
+					<area shape="rect" coords="0,0,2560,1440" href="javascript:switchPopUp9()" alt="FECHAR">
+				</map>
+			<a href="https://pfizer.sharepoint.com/:p:/s/ProductExecutionPlan/EQaxYxAn_vdBrJiCX-zvNFEBbAlZhlWSpmJx-X8S4tUrXQ?e=YKozQh"	 	alt="VA Pseudomonas" target="_blank">			
+				<div style="bottom: 16%; left: 4%; position: absolute; width: 43%; height: 10%" class="buttom "></div>
+			</a>	
+				
+				
+				
+			 </div>	
+		<!--Liderando o Diagnóstico-->
+		<!--VA Pseudomonas-->	
+		
+			<a href="index_01.html" alt="Home">			
+				<div style="top: 0; left: 0; position: absolute; width: 10%; height: 10%" class="buttom "></div>
+			</a>		
+	</div>
+</body>
+</html>

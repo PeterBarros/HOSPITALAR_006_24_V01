@@ -1,0 +1,89 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <title>25</title>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/script.js"></script>
+	<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+	<link href="css/animate.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div id="stage">
+		<img class="animated fadeIn" src="media/tela_25.png" alt=""  usemap="#Map"/>
+			<!--paginação-->
+			<a href="index_24.html" alt="Anterior">			
+				<div class="buttom anterior"></div>
+			</a>
+			<a href="index_26.html" alt="Anterior">			
+				<div class="buttom proximo"></div>
+			</a>		
+			<!--paginação-->			
+		
+			<a href="index_26.html" alt="Siga a Jornada">	
+				
+				
+				<div class="buttom sigaAJornada"></div>
+			</a>
+		
+			<a href="javascript:switchPopUp()"	 	alt="VA Pediatria">			
+				<div style="bottom: 5%; left: 16%; position: absolute; width: 17%; height: 30%" class="buttom "></div>
+			</a>
+			<a href="javascript:switchPopUp4()" alt="Lâmina Concorrente">			
+				<div style="bottom: 5%; left: 1%; position: absolute; width: 14%; height: 30%" class="buttom "></div>
+			</a>
+			<a href="javascript:switchPopUp1()" alt="VA Pneumonas">			
+				<div style="bottom: 5%; left: 34%; position: absolute; width: 18%; height: 30%" class="buttom "></div>
+			</a>
+	
+					
+		
+		
+		<map name="Map">
+<!--			<area shape="rect" coords="199,471,427,660" href="index_36.html" alt="Pediatria">-->
+			<area shape="rect" coords="7,472,190,625" href="javascript:switchPopUp4()" alt="Lâmina Concorrente">			
+			<area shape="rect" coords="433,471,663,659" href="javascript:switchPopUp1()"	alt="VA CAVICOR | EZTEAM">
+			<area shape="rect" coords="198,471,425,652" 		href="javascript:switchPopUp()"	 	alt="Tela 36">
+			<area shape="rect" coords="970,648,1269,717" href="index_26.html" alt="Siga a Jornada">
+			<area shape="rect" coords="0,100,150,620" 		href="index_24.html" alt="Anterior">
+			<area shape="rect" coords="1130,100,1280,620" 	href="index_26.html" alt="Próximo"></map> 
+		
+		<!--VA Pediatria-->
+			<div id="popUp">
+				<img src="media/tela_36.png"  usemap="#Graph_01" class="animated fadeIn"/>
+				<map name="Graph_01">
+					<area shape="rect" coords="0,0,2560,1440" href="javascript:switchPopUp()" alt="FECHAR">
+				</map>
+			 </div>	
+		<!--VA Pediatria-->
+		
+		<!--VA CAVICOR | EZTEAM-->
+			<div id="popUp1">
+				<img src="media/tela_32.png"  usemap="#Graph_02" class="animated fadeIn"/>
+				<map name="Graph_02">
+					<area shape="rect" coords="0,0,2560,1440" href="javascript:switchPopUp1()" alt="FECHAR">
+				</map>
+			<a href="https://pfizer.sharepoint.com/:b:/r/sites/ProductExecutionPlan/Shared Documents/Material Promocional Q3- Q4 2024/Zavicefta (TORGENA)/Slide kit - RWE - CAVICOR E EZTEAM.pdf?csf=1&web=1&e=K8c0Cw"	 	alt="VA Pseudomonas" target="_blank">			
+				<div style="bottom: 70%; left: 2%; position: absolute; width: 41%; height: 10%" class="buttom "></div>
+			</a>				
+			 </div>	
+		<!--VA CAVICOR | EZTEAM-->	
+		
+		<!--Lâmina Concorrente-->
+			<div id="popUp4">
+				<img src="media/tela_33.png"  usemap="#Graph_04" class="animated fadeIn"/>
+				<map name="Graph_04">
+					<area shape="rect" coords="0,0,2560,1440" href="javascript:switchPopUp4()" alt="FECHAR">
+				</map>
+			 </div>	
+		<!--Lâmina Concorrente-->		
+				<a href="index_01.html" alt="Home">			
+				<div style="top: 0; left: 0; position: absolute; width: 10%; height: 10%" class="buttom "></div>
+			</a>	
+		
+	</div>
+</body>
+</html>

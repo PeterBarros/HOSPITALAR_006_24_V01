@@ -1,0 +1,337 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+img {
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	max-height: 100%;
+	max-width: 100%;	
+	
+}
+#stage, #l_fundo, #l_popup, #l_popup_refs {
+/*    height: 100%;*/
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+#stage, #l_fundo {
+	display: block;
+}
+#l_popup, #l_popup_refs {
+	display: none;
+}
+
+
+/*Pop-Ups*/
+
+#popUp {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: absolute;
+	z-index: 51;
+	display: none;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+
+#popUp1 {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: absolute;
+	z-index: 51;
+	display: none;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+
+#popUp2 {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: absolute;
+	z-index: 51;
+	display: none;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+
+#popUp3 {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: absolute;
+	z-index: 51;
+	display: none;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+
+#popUp4 {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: absolute;
+	z-index: 51;
+	display: none;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+
+#popUp5 {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: absolute;
+	z-index: 51;
+	display: none;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+
+#popUp6 {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: absolute;
+	z-index: 51;
+	display: none;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+
+#popUp7 {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: absolute;
+	z-index: 51;
+	display: none;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+
+#popUp8 {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: absolute;
+	z-index: 51;
+	display: none;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+
+#popUp9 {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: absolute;
+	z-index: 51;
+	display: none;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+
+#popUp10 {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: absolute;
+	z-index: 51;
+	display: none;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+
+#popUp11 {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: absolute;
+	z-index: 51;
+	display: none;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+
+#popUp12 {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: absolute;
+	z-index: 51;
+	display: none;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+
+#popUp13 {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: absolute;
+	z-index: 51;
+	display: none;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+
+#popUp14 {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: absolute;
+	z-index: 51;
+	display: none;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+
+#popUp15 {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: absolute;
+	z-index: 51;
+	display: none;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+
+#popUp16 {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: absolute;
+	z-index: 51;
+	display: none;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+
+#popUp17 {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: absolute;
+	z-index: 51;
+	display: none;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+
+#popUp18 {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: absolute;
+	z-index: 51;
+	display: none;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+
+#popUp19 {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: absolute;
+	z-index: 51;
+	display: none;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+
+#popUp20 {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: absolute;
+	z-index: 51;
+	display: none;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+
+#popUp21 {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: absolute;
+	z-index: 51;
+	display: none;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+
+.buttom {
+/*
+	background-color: red;
+	opacity: 50%;
+*/
+}
+
+.sigaAJornada {
+	position:absolute;
+	height: 10%; 
+	width: 23%; 
+	bottom: 0%; 
+	left:77%; 
+}
+
+.anterior {
+	position: absolute;
+	height: 85%; 
+	width: 15%; 
+	top: 15%; 
+	left:0%; 
+}
+
+.proximo {
+	position: absolute;
+	height: 85%; 
+	width: 15%; 
+	top: 0%; 
+	left:85%; 
+}
+
+
+.menus {
+	position: relative;
+	top:0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
